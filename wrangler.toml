@@ -1,0 +1,6 @@
+name = "uptime-kuma"                # 你的 Worker 名称，需与 CI 预期一致
+compatibility_date = "2025-04-09"   # 设置为今天或你希望的日期
+type = "assets"                     # 如果只是部署静态资源，指定 assets 类型
+
+[assets]
+  directory = "./dist"              # 你的静态文件目录
